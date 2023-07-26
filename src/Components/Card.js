@@ -10,7 +10,7 @@ const Card = () => {
             <div className="project-container">
                 {WorkCardData.map((val,ind)=>{
                      return(
-                        <WorkCard key={ind} imgsrc={val.imgrc} text={val.text} title={val.title} view={val.view} source={val.source}/>
+                        <WorkCard key={ind} imgsrc={val.imgsrc} text={val.text} title={val.title} view={val.view} source={val.source}/>
                      )
                 })}
             </div>
